@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: "Welcome to Jekyll!"
+filename: welcome-to-jekyll
 date: April 10, 2020
 image: /images/pic01.jpg
 ---
