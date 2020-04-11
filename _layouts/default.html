@@ -38,30 +38,30 @@
 
 
 			<!-- Post -->
-			<article class="post">
-				<header>
-					<div class="title">
-						<h2><a href="single.html">Euismod et accumsan</a></h2>
-						<p>Lorem ipsum dolor amet nullam consequat etiam feugiat</p>
-					</div>
-					<div class="meta">
-						<div class="published">October 22, 2015</div>
-						<a href="#" class="author"><span class="name">Sarah Usher</span><img src="images/sarah.jpg"
-								alt="" /></a>
-					</div>
-				</header>
-				<a href="single.html" class="image featured"><img src="/images/pic02.jpg" alt="" /></a>
-				<p>Mauris neque quam, fermentum ut nisl vitae, convallis maximus nisl. Sed mattis nunc id lorem euismod
-					placerat. Vivamus porttitor magna enim, ac accumsan tortor cursus at. Phasellus sed ultricies mi non
-					congue ullam corper. Praesent tincidunt sed tellus ut rutrum. Sed vitae justo condimentum, porta
-					lectus vitae, ultricies congue gravida diam non fringilla. Cras vehicula tellus eu ligula viverra,
-					ac fringilla turpis suscipit. Quisque vestibulum rhoncus ligula.</p>
-				<footer>
-					<ul class="actions">
-						<li><a href="single.html" class="button large">Continue Reading</a></li>
-					</ul>
-				</footer>
-			</article>
+
+			{% for post in site.posts limit:1 %}
+				<article class="post">
+					<header>
+						<div class="title">
+							<h2><a href="{{ post.filename }}">{{ post.title }}</a></h2>
+						</div>
+						<div class="meta">
+							<div class="published">{{ post.date | date: "%B %d, %Y" }}</div>
+							<a href="#" class="author"><span class="name">Sarah Usher</span><img src="/images/sarah.jpg"
+																								 alt="image of author" /></a>
+						</div>
+					</header>
+					<a href="{{ post.filename }}" class="image featured"><img src="{{ post.image }}" alt="" /></a>
+					<p> {{ post.excerpt }} </p>
+					<footer>
+						<ul class="actions">
+							<li><a href="{{ post.filename }}" class="button large">Continue Reading</a></li>
+						</ul>
+					</footer>
+				</article>
+			{% endfor %}
+
+
 
 
 		</div>
