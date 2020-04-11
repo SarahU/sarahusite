@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: blog
 ---
 
 This is the blog page.
