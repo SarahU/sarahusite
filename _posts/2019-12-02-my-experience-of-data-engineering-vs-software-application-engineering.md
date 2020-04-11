@@ -1,7 +1,7 @@
 ---
 layout: blogpost
 title: "My Experience of Data Engineering vs Software Application Engineering"
-date: "December 2, 2019"
+date: December 2, 2019
 image: /images/pic02.jpg
 ---
 
