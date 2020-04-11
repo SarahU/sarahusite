@@ -17,7 +17,7 @@
 		<!-- Header -->
 
 		{% include header.html %}
-		
+
 		<!-- Main -->
 		<div id="main">
 
@@ -28,8 +28,9 @@
 						<h2>{{ page.title }}</h2>
 					</div>
 					<div class="meta">
-						<div class="published">November 1, 2015</div>
-						<a href="#" class="author"><span class="name">Sarah Usher</span><img src="/images/sarah.jpg" alt="" /></a>
+						<div class="published">{{ page.date | date: "%B %d, %Y" }}</div>
+						<a href="#" class="author"><span class="name">Sarah Usher</span><img src="/images/sarah.jpg"
+								alt="" /></a>
 					</div>
 				</header>
 				<span class="image featured"><img src="/images/pic01.jpg" alt="" /></span>

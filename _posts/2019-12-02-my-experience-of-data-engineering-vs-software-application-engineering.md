@@ -1,8 +1,7 @@
 ---
 layout: blogpost
 title: "My Experience of Data Engineering vs Software Application Engineering"
-date: 2019-12-02 08:00:00 +0000
-categories: 
+date: "December 2, 2019"
 ---
 
 **Everyone works with data, integration and code but in a slightly different way. Data-engineering is a new specialisation and is not completely different from application engineering but it comes with different paradigms and challenges. Understanding the differences on both sides will ultimately help both roles work together better (your metadata will thank you!). And it’s also worth knowing that it’s possible to go between both roles if you feel like a change or challenge!**
