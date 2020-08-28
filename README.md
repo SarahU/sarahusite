@@ -1,6 +1,6 @@
 # Sarah U's blog-site
 
-I'm a generalist developer turned Data & Backend Specialist and Technical Leader.
+I'm a polyglot developer turned Data & Backend Specialist and Technical Leader.
 Welcome to my blog!
 
 Follow me on Twitter:
