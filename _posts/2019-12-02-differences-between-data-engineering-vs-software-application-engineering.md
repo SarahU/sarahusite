@@ -22,7 +22,7 @@ Do the objects processing and transform themselves? Their child objects? Even th
 
 In the Functional-programming paradigm - the programmer is actually working with data sets and functions and not with domain objects. It’s worth understanding both paradigms because when well written, they can play really well together in the same codebase.
 
-**User Stories are different**
+**User Stories offer less technical insight**
 
 User Stories for an end-to-end feature ideally look something like this:
 
