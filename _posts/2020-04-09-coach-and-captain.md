@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: "Coach & Captain - a pattern for team leadership"
+type: "TEAM"
 filename: coach-and-captain
 date: May 09, 2020
 image: /images/gena-okami-y1lpMk37EnE-unsplash.jpg

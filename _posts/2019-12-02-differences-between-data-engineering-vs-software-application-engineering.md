@@ -1,6 +1,7 @@
 ---
 layout: blogpost
 title: "Reflecting on the differences between Data Engineering vs Software Application Engineering"
+type: "TECH"
 filename: differences-between-data-engineering-vs-software-application-engineering
 date: 02-12-2019
 image: /images/nick-fewings-uDpH-PSdPcI-unsplash.jpg

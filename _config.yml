@@ -1,4 +1,4 @@
-name: Sarah's World
+name: Sarahs Site
 owner: Sarah Usher
 
 baseurl: "" # the base url of your site
@@ -6,6 +6,10 @@ url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
 collections:
   posts:
+    permalink: /blog/:title
+  teamposts:
+    permalink: /blog/:title
+  techposts:
     permalink: /blog/:title
 
 exclude:
