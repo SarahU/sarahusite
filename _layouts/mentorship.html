@@ -2,42 +2,86 @@
 
 <html>
 
-<body class="single is-preload">
+<body class="is-preload">
 
-	<!-- Wrapper -->
-	<div id="wrapper">
+<!-- Wrapper -->
+<div id="wrapper">
 
-		<!-- Header -->
+	<!-- Header -->
 
-		{% include header.html %}
 
-		<!-- Main -->
-		<div id="main">
 
-		I offer the following services for free to non-binary and women folk:
-			Career Guidance / Plotting for associate and mid-level
-			Portfolio building for Software Engineering, Data Engineering, Data Analytics & Testing
-			Industry & interview advice / query answering
-			Public speaking
-			Technical up-skilling projects
-		</div>
+	{% include header.html %}
+
+	<!-- Main -->
+	<div id="main" class="post">
+
+		<b> I offer the following services for free to non-binary, women folk: </b>
+		<ol>
+			<li> Career Guidance / Plotting for associate and mid-level </li>
+			<li> Portfolio building for Software Engineering, Data Engineering, Data Analytics & Testing </li>
+			<li> Industry & interview advice / query answering </li>
+			<li> Public speaking </li>
+			<li> Technical up-skilling project advice and code review </li>
+		</ol>
 
 		<div>
-			To put here: links to communities
+			You can find me in the Women Who Code & Ladies of Code London Slack groups as well as the RecWorks Meet-a-mentor program.
+			<div>
+				https://www.womenwhocode.com/
+			</div>
+			<div>
+				https://www.meetup.com/Ladies-of-Code-UK/
+			</div>
+			<div>
+				https://meetamentor.co.uk/
+			</div>
 		</div>
 
-		<!-- Footer -->
-
-		{% include footer.html %}
+		<span class="image featured"><img src="/images/irit-keynan-hbZK36IGvqU-unsplash.jpg" alt="cat reading a book" /></span>
+		<div>Image Attribution: https://unsplash.com/photos/hbZK36IGvqU?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink</div>
 
 	</div>
 
-	<!-- Scripts -->
-	<script src="{{site.baseurl}}/assets/js/jquery.min.js"></script>
-	<script src="{{site.baseurl}}/assets/js/browser.min.js"></script>
-	<script src="{{site.baseurl}}/assets/js/breakpoints.min.js"></script>
-	<script src="{{site.baseurl}}/assets/js/util.js"></script>
-	<script src="{{site.baseurl}}/assets/js/main.js"></script>
+	<!-- Sidebar -->
+	<section id="sidebar">
+
+		<!-- Intro -->
+		<section id="intro">
+			<a href="#" class="logo"><img src="/images/sarah.jpg" alt="" /></a>
+			<header>
+				<h2>Sarah Usher</h2>
+				<p>Polyglot</p>
+				<p>Big Data</p>
+				<p>Speaker</p>
+				<p>Mentor</p>
+			</header>
+		</section>
+
+		<!-- About -->
+		<section class="blurb">
+			<h2>About</h2>
+			<p>Sarah hails from sunny South Africa and is currently living in London. She has been building useful software for
+				10 years and is currently focused on Data Engineering, Backend Engineering, Data Products and Analytics as well as community work through Ladies of Code London.</p>
+			<!--<ul class="actions">-->
+			<!--<li><a href="#" class="button">Learn More</a></li>-->
+			<!--</ul>-->
+		</section>
+
+<!--		https://unsplash.com/photos/hbZK36IGvqU?utm_source=unsplash&utm_medium=referral&utm_content=creditShareLink-->
+
+		<!-- Footer -->
+		{% include footer.html %}
+	</section>
+
+</div>
+
+<!-- Scripts -->
+<script src="{{site.baseurl}}/assets/js/jquery.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/browser.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/breakpoints.min.js"></script>
+<script src="{{site.baseurl}}/assets/js/util.js"></script>
+<script src="{{site.baseurl}}/assets/js/main.js"></script>
 
 </body>
 
