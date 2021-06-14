@@ -1,9 +1,9 @@
 ---
 layout: blogpost
-title: "Reflecting on the differences between Data Engineering vs Software Application Engineering"
+title: "ng vs Software Application Engineering"
 type: "TECH"
 filename: /blog/differences-between-software-application-engineering
-date: 02-12-2019
+date: 15-06-2021
 image: /images/nick-fewings-uDpH-PSdPcI-unsplash.jpg
 imageAltText: "A cat looking to the side, reflected in a round mirror"
 image_attribution: Photo by Nick Fewings on Unsplash
