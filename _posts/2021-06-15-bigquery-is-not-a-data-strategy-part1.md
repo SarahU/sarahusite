@@ -3,7 +3,7 @@ layout: blogpost
 title: "BigQuery is not a Data Strategy - Part 1 - Identifying Symptoms"
 type: "TECH"
 filename: /blog/bigquery-is-not-a-data-strategy-part1
-date: 14-06-2021
+date: 15-06-2021
 image: /images/manja-vitolic-unsplash.jpeg
 imageAltText: "A cat staring intently"
 image_attribution: Photo by <a href="https://unsplash.com/@madhatterzone?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Manja Vitolic</a> on <a href="https://unsplash.com/s/photos/nerd-cat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
