@@ -35,6 +35,7 @@ They were also:
 Due to the number of responsibilities and meetings the Team Leads had, there were many scenarios where they were simply not available to the team.
 "So the seniors were available weren't they?". The seniors were definitely available, however, half our team was senior and each person had their own ideas about direction and implementation choices, which took time to resolve and often involved the lead's input to finalise. With the amount of responsibilities, three Team Leads reached breaking point and resigned within a few weeks of each other.
 
+
 **Introducing Tech Leads**
 
 Clearly the stress of taking on all that responsibility caused our leaders to burn out.
@@ -45,6 +46,7 @@ The Team Lead would remain the line manager and main communication liason.
 The tri-vector was completed with the Product Manager whom was responsible for Product direciton, priorities and business comms.
 Between the three roles, besides over Christmas, there was to be delivery and communication continuity.
 In simplistic terms "The What" was owned by the PM, "The When" by the Team Lead and "The How" by the Tech Lead.
+
 
 **Our Coach and Captain**
 
@@ -75,7 +77,9 @@ It is clear that if there is not trust between the 2 Leads, this configuration c
 Luckily in our case, this trust was in place and the 2 Lead's were highly aligned on goals and processes.
 As time went on, the need for consultancy between the two became less as well.
 
+
 **What I learned as the Tech Lead**
+
 I've been asked a few times if I would consider a Team Lead position but I haven't wanted to remove myself from the codebase just yet.
 I very much enjoy still building software, and I'm fully aware that Team Lead roles take you away from the code, at least in a mid-sized company and up (my preferred company sizes).
 I've also been inside many teams where a Technical Team Lead (TTL) could be absent from the team for hours and days and though a Senior Developer is perfectly capable of making a tactical decision, they may be missing context in overall strategy (either by their choice or due to culture).
