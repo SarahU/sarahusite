@@ -13,15 +13,33 @@
 
 		<!-- Main -->
 		<div id="main">
-			<div class="post">
-				<div> Upcoming: </div>
-				<div>
-					<ul>
-						<li>Coach & Captain - Team and Tech Leadership</li>
-						<li>How I combat Imposter Syndrome</li>
+
+			{% for post in site.posts %}
+			{%  if post.type == 'TEAM' %}
+
+			<article class="post">
+				<header>
+					<div class="title">
+						<h2><a href="{{ post.filename }}">{{ post.title }}</a></h2>
+					</div>
+					<div class="meta">
+						<div class="published">{{ post.date | date: "%B %d, %Y" }}</div>
+						<a href="#" class="author"><span class="name">Sarah Usher</span><img src="/images/sarah1.jpg"
+																							 alt="image of author" /></a>
+					</div>
+				</header>
+				<a href="{{ post.filename }}" class="image featured"><img src="{{ post.image }}" alt="" /></a>
+				<p> {{ post.excerpt }} </p>
+				<footer>
+					<ul class="actions">
+						<li><a href="{{ post.filename }}" class="button large">Continue Reading</a></li>
 					</ul>
-				</div>
-			</div>
+				</footer>
+			</article>
+			{% endif %}
+
+			{% endfor %}
+
 		</div>
 
 		<!-- Sidebar -->
@@ -69,7 +87,9 @@
 			<section class="blurb">
 				<h2>About</h2>
 				<p>Sarah hails from sunny South Africa and is currently living in London. She has been building useful software for
-					10 years and is currently focused on Data Engineering, Backend Engineering, Data Products and Analytics as well as community work through Ladies of Code London.</p>
+					10 years and is currently focused on Data Engineering, Backend Engineering, Data Products and Analytics as well as community work through Ladies of Code London.
+					I like cats.
+				</p>
 				<!--<ul class="actions">-->
 				<!--<li><a href="#" class="button">Learn More</a></li>-->
 				<!--</ul>-->
