@@ -10,8 +10,9 @@ image_attribution: Photo by <a href="https://unsplash.com/@madhatterzone?utm_sou
 ---
 
 *This is the first in a 4-part series where I talk about what a Data Strategy is, how to identify a lack of or poor data 
-strategy in a business and it's systems, how to avoid those problems and what to do if you're already experiencing them 
-and how to get out of data choas, into data clarity.*
+strategy in a business and it's systems, implementing a good Data Strategy, 
+how to avoid those problems and what to do if you're already experiencing them 
+and want to get out of data chaos, into data clarity.*
 
 
 
